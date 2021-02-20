@@ -1,0 +1,3 @@
+<h1>PetMentor TinyML program for automatic dog clicker</h1>
+Clicker training, or mark and reward, is a form of positive reinforcement dog training. A clicker is simply a small mechanical noisemaker. The techniques are based on the science of animal learning, which says that behaviors that are rewarded are more likely to be repeated in the future.
+In our application, moves like sit, jump, and rollover are indicated with different lights and buzzer tones for feedback. Whenever our pet performs the desired trick, a buzzer tone is played to reinforce the behaviour, cookies and treats can also be brought into play.

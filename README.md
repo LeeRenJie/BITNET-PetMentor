@@ -1,6 +1,10 @@
 # BITNET-PetMentor
 ![Workflow](https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/workflow.png)
 
+# Tech Stack
+- React
+- Django
+
 # Getting Started 
 ### Setup the repository to your local environment.
 1. `fork` the repository - Creates a replica of repository to your local environment.

@@ -13,3 +13,7 @@ First of all let us gather some IMU data, for that we use data forwader of EdgeI
 <pre><b>$ edge-impulse-data-forwarder</b></pre>
 
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/2021-02-21-01-57-23.gif">
+
+<h2>Making our Impulse for pet motion recognition</h2>
+We are using Spectral Analysis block for processing IMU motion activities data.
+<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/Motionrecognition.png">

@@ -1,0 +1,1 @@
+Utilizing both the libraries generated for voice command recognition and activity detection, combining them together to reinforce learning behaviour in pets also, sharing other sensor data to web app through BLE for pet health monitoring and connecting different pet owners on platform for socialization.

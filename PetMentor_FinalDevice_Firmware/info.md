@@ -2,5 +2,4 @@ Utilizing both the libraries generated for voice command recognition and activit
 
 <pre><b>The device firmware is best suited for keeping the below MCUs in mind</b></pre>
 
-<img src="https://content.arduino.cc/assets/Pinout-NANOsense_latest.png" height="320">
-<img src="https://content.arduino.cc/assets/Pinout-PortentaH7_latest.png" height="320">
+<img src="https://content.arduino.cc/assets/Pinout-NANOsense_latest.png"> | <img src="https://content.arduino.cc/assets/Pinout-PortentaH7_latest.png">

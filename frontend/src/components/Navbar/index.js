@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
     <Fragment>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <NavLink to="/" className="navbar-brand">
-            PetMentor
+          <NavLink to="/" className="navbar-brand ">
+            <h1 className={styles["brandTitle"]}>PetMentor</h1>
           </NavLink>
           <button
             className="navbar-toggler"
@@ -23,22 +24,27 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
+                <NavLink to="/" className="nav-link" aria-current="page">
+                  <span>Home</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink
                   to="/dashboard"
-                  className="nav-link active"
+                  className="nav-link"
                   aria-current="page"
                 >
-                  Dashboard
+                  <span>Dashboard</span>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/Pets" className="nav-link">
-                  My Pet
+                  <span>My Pet</span>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/Stats" className="nav-link">
-                  Stats
+                  <span>Stats</span>
                 </NavLink>
               </li>
             </ul>

@@ -18,3 +18,6 @@ The first step is collecting .wav sound files for the utterances of those comman
 <pre><b>This is how your uploaded data looks like in EdgeImpulse Studio</b></pre>
 ![Workflow](https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/DataUploaderAndLabels.jpg)
 
+<pre><b>Creating the Impulse to train the data on Neural Networks</b></pre>
+![Workflow](https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/ImpulseTraining.jpg)
+

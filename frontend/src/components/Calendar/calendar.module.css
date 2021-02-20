@@ -1,0 +1,9 @@
+.calendar {
+  border-radius: 25px;
+  color: black;
+  box-shadow: 0 10px 6px -6px #777;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+}

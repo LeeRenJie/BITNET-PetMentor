@@ -21,3 +21,5 @@ We are using Spectral Analysis block for processing IMU motion activities data. 
 
 <h2>Analyzing Spectral features</h2>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/Spectrafeatures.gif">
+The spectral analysis is not accurate as we have collected very few dataset which is not enough for motion recognition however fo this hackathon it serves the purpose to explain PoC.
+

@@ -1,13 +1,13 @@
-import React, {component} from "react"
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from "./components/Navbar"
+import React, { Component } from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar/Navbar";
 
 class App extends Component {
-  render(){
+  render() {
     return (
       <div>
-      <Navbar />
+        <Navbar />
       </div>
     );
   }

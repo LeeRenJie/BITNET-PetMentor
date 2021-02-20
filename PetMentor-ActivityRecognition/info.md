@@ -1,1 +1,1 @@
-Edge Impulse Motion Classifier for pet movement recognition
+Edge Impulse Motion Classifier for pet movement recognition 

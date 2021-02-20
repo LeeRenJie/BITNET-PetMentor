@@ -13,5 +13,5 @@ The smart dog collar is based on Arduino Nano BLE 33 Sense Development board whi
 
 <img src="https://pbs.twimg.com/media/EIzb-VrWwAAGwmu.jpg" height="350" width="400">|<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/PetMentor-Voice.jpg" height="350" width="600">
 
-The first step is collecting .wav sound files for the utterances of those commands for training in EdgeImpulse Studio. If you have those voice command dataset you can skip sreaming data via edge impulse data uploader for Arduino Nano BLE 33 Sense.
+The first step is collecting .wav sound files for the utterances of those commands for training in EdgeImpulse Studio. If you have those voice command dataset you can skip sreaming data via edge impulse data uploader for Arduino Nano 33 BLE Sense. Note: Due to time and resource limitation, we are only training device to recognise two command out of six, those are stop and go.
 

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&family=Ubuntu&display=swap");
+
+.brandTitle {
+  color: #fd774e;
+  margin-right: 10px;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+.navbar .navbar-nav .navbar-item {
+  margin: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+}

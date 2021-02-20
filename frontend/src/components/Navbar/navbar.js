@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 function Navbar() {
   return (
     <Fragment>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <NavLink to="/" className="navbar-brand ">
             <h1 className={styles["brandTitle"]}>PetMentor</h1>
@@ -25,7 +25,7 @@ function Navbar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink to="/" className="nav-link" aria-current="page">
-                  <span>Home</span>
+                  <span className="nav-direct">Home</span>
                 </NavLink>
               </li>
               <li className="nav-item">

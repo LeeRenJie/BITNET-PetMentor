@@ -2,11 +2,11 @@ import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Dashboard from "./components/Dashboard";
-import Pets from "./components/Pets";
-import Stats from "./components/Stats";
+import Navbar from "./components/Navbar/navbar";
+import Home from "./components/Home/home";
+import Dashboard from "./components/Dashboard/dashboard";
+import Pets from "./components/Pets/pets";
+import Stats from "./components/Stats/stats";
 
 class App extends Component {
   render() {

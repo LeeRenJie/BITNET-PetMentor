@@ -15,14 +15,14 @@ The smart dog collar is based on Arduino Nano BLE 33 Sense Development board whi
 
 The first step is collecting .wav sound files for the utterances of those commands for training in EdgeImpulse Studio. If you have those voice command dataset you can skip sreaming data via edge impulse data uploader for Arduino Nano 33 BLE Sense. Note: Due to time and resource limitation, we are only training device to recognise two command out of six, those are stop and go. 
 
-<h3>This is how your uploaded data looks like in EdgeImpulse Studio.</h3>
+<h3><u>This is how your uploaded data looks like in EdgeImpulse Studio.</u></h3>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/DataUploaderAndLabels.jpg">
 
-<h3>Creating the Impulse to train the data on Neural Networks.</h3>
+<h3><u>Creating the Impulse to train the data on Neural Networks.</u></h3>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/ImpulseTraining.jpg">
 With the data set in place you can design an impulse. An impulse takes the raw data, slices it up in smaller windows, uses signal processing blocks to extract features, and then uses a learning block to classify new data. Signal processing blocks always return the same values for the same input and are used to make raw data easier to process, while learning blocks learn from past experiences. For this tutorial we'll use the "MFCC" signal processing block. MFCC stands for Mel Frequency Cepstral Coefficients. We'll then pass this simplified audio data into a Neural Network block, which will learn to distinguish between the three classes of audio.
 
-<h3>Training the model with 100 epoch.</h3>
+<h3><u>Training the model with 100 epoch.</u></h3>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/2021-02-20-22-30-04.gif">
 The model accuracy comes around 95% and certainly enough to proceed with our PetMentor features.
 

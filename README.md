@@ -1,4 +1,5 @@
 # BITNET-PetMentor
+![Workflow](https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/PetMentor-Voice.jpg)
 ![Workflow](https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/workflow.png)
 
 # Tech Stack

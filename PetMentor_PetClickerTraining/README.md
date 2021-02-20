@@ -11,4 +11,5 @@ Clicker training, or mark and reward, is a form of positive reinforcement dog tr
 
 The smart dog collar is based on Arduino Nano BLE 33 Sense Development board which runs a faster processor for onboard DSP algorithms and can run TensflowLite binaries as well. The idea is very simple, the first part of device runs Voice command recognition program to listen for 6 pet training commands like sleep, jump, sit, roll, stop, run. We use Edge Impulse Studio to train the Neural Net and optimized binary file for device. 
 
-<img src="https://pbs.twimg.com/media/EIzb-VrWwAAGwmu.jpg" height="500" width="500"> | <img src="" height="500" width="500">
+<img src="https://pbs.twimg.com/media/EIzb-VrWwAAGwmu.jpg" height="500" width="500"> 
+<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/PetMentor-Voice.jpg" height="500" width="500">

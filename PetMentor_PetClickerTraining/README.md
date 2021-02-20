@@ -18,8 +18,9 @@ The first step is collecting .wav sound files for the utterances of those comman
 <pre><b>This is how your uploaded data looks like in EdgeImpulse Studio.</b></pre>
 ![Workflow](https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/DataUploaderAndLabels.jpg)
 
-<pre><b>Creating the Impulse to train the data on Neural Networks.With the data set in place you can design an impulse. An impulse takes the raw data, slices it up in smaller windows, uses signal processing blocks to extract features, and then uses a learning block to classify new data. Signal processing blocks always return the same values for the same input and are used to make raw data easier to process, while learning blocks learn from past experiences. For this tutorial we'll use the "MFCC" signal processing block. MFCC stands for Mel Frequency Cepstral Coefficients. We'll then pass this simplified audio data into a Neural Network block, which will learn to distinguish between the three classes of audio.</b></pre>
+<pre><b>Creating the Impulse to train the data on Neural Networks.</b></pre>
 ![Workflow](https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/ImpulseTraining.jpg)
+With the data set in place you can design an impulse. An impulse takes the raw data, slices it up in smaller windows, uses signal processing blocks to extract features, and then uses a learning block to classify new data. Signal processing blocks always return the same values for the same input and are used to make raw data easier to process, while learning blocks learn from past experiences. For this tutorial we'll use the "MFCC" signal processing block. MFCC stands for Mel Frequency Cepstral Coefficients. We'll then pass this simplified audio data into a Neural Network block, which will learn to distinguish between the three classes of audio.
 
 <pre><b></b></pre>
 

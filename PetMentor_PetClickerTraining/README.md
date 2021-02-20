@@ -24,6 +24,7 @@ With the data set in place you can design an impulse. An impulse takes the raw d
 
 <h3>Training the model with 100 epoch.</h3>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/2021-02-20-22-30-04.gif">
+The model accuracy comes around 95% and certainly enough to proceed with our PetMentor features.
 
 
 

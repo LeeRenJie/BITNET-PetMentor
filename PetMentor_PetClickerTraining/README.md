@@ -14,3 +14,4 @@ The smart dog collar is based on Arduino Nano BLE 33 Sense Development board whi
 <img src="https://pbs.twimg.com/media/EIzb-VrWwAAGwmu.jpg" height="350" width="400">|<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/PetMentor-Voice.jpg" height="350" width="600">
 
 
+

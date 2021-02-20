@@ -18,11 +18,11 @@ The first step is collecting .wav sound files for the utterances of those comman
 <h2>This is how your uploaded data looks like in EdgeImpulse Studio.</h2>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/DataUploaderAndLabels.jpg">
 
-<h3><u>Creating the Impulse to train the data on Neural Networks.</u></h3>
+<h2>Creating the Impulse to train the data on Neural Networks.</h2>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/ImpulseTraining.jpg">
 With the data set in place you can design an impulse. An impulse takes the raw data, slices it up in smaller windows, uses signal processing blocks to extract features, and then uses a learning block to classify new data. Signal processing blocks always return the same values for the same input and are used to make raw data easier to process, while learning blocks learn from past experiences. For this tutorial we'll use the "MFCC" signal processing block. MFCC stands for Mel Frequency Cepstral Coefficients. We'll then pass this simplified audio data into a Neural Network block, which will learn to distinguish between the three classes of audio.
 
-<h3><u>Training the model with 100 epoch.</u></h3>
+<h2>Training the model with 100 epoch.</h3>
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/2021-02-20-22-30-04.gif">
 The model accuracy comes around 95% and certainly enough to proceed with our PetMentor features.
 
@@ -30,5 +30,5 @@ The model accuracy comes around 95% and certainly enough to proceed with our Pet
 Note: This is just a test code, our actual version would combine voice command recognition and activty recognition and if the pet performs the desired activity based upon the user's given command then a specific sound and vibration rythm would be generated to make pets learn things faster. 
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/PetMentor-ArduinoDemo.jpg">
 
-<pre>Here's the link for our PetMentor voice command classification on edge Impulse studio <a href="https://studio.edgeimpulse.com/public/17302/latest">Edge Impulse PetMentor voice command training</a></pre>
+<pre><b>Here's the link for our PetMentor voice command classification on edge Impulse studio <a href="https://studio.edgeimpulse.com/public/17302/latest">Edge Impulse PetMentor voice command training</a><b></pre>
 

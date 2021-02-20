@@ -27,7 +27,8 @@ With the data set in place you can design an impulse. An impulse takes the raw d
 The model accuracy comes around 95% and certainly enough to proceed with our PetMentor features.
 
 <pre><b>Programming buzzer tone and vibration motor feedback for the spoken commands into the application.</b></pre>
-Note: This is just a test code, our actual version would combine voice command recognition and activty recognition and if the pet performs the desired activity based upn the user's given command then a specific sound and vibration rythm would be generated to make pets learn things faster. 
+Note: This is just a test code, our actual version would combine voice command recognition and activty recognition and if the pet performs the desired activity based upon the user's given command then a specific sound and vibration rythm would be generated to make pets learn things faster. 
+<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/PetMentor-ArduinoDemo.jpg">
 
 
 

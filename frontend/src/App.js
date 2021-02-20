@@ -1,14 +1,27 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Dashboard from "./components/Dashboard";
+import Pets from "./components/Pets";
+import Stats from "./components/Stats";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
-      </div>
+      <Fragment>
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/Dashboard" component={Dashboard} />
+            <Route exact path="/Pets" component={Pets} />
+            <Route exact path="/Stats" component={Stats} />
+          </Switch>
+        </Router>
+      </Fragment>
     );
   }
 }

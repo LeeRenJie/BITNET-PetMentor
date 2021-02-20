@@ -4,6 +4,7 @@
 # Tech Stack
 - React
 - Django
+- Firebase
 
 # Getting Started 
 ### Setup the repository to your local environment.

@@ -2,13 +2,11 @@
 
 .brandTitle {
   color: #fd774e;
-  margin-right: 10px;
   font-family: Montserrat;
   font-weight: 900;
 }
 
 .navbar .navbar-nav .navbar-item {
-  margin: 10px;
   font-family: Montserrat;
   font-weight: 400;
 }

@@ -38,6 +38,11 @@ function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink to="/Chat" className="nav-link">
+                  <span>Chats</span>
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink to="/Pets" className="nav-link">
                   <span>My Pet</span>
                 </NavLink>

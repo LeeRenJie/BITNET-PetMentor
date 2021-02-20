@@ -18,3 +18,6 @@ First of all let us gather some IMU data, for that we use data forwader of EdgeI
 
 <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/Motionrecognition.png">
 We are using Spectral Analysis block for processing IMU motion activities data. This block applies a filter, performs spectral analysis on the signal, and extracts frequency and spectral power data. Then we'll use a 'Neural Network' learning block, that takes these spectral features and learns to distinguish between the four (stop, go, sleep, jump) classes.
+
+<h2>Analyzing Spectral features</h2>
+<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/Spectrafeatures.gif">

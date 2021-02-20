@@ -15,7 +15,24 @@
 # Frontend 
 Following are the steps to run the frontend of the BITNET-PetMentor. All the frontend code will go in the frontend directory.
 
-1. Navigate to `frontend` folder using `cd frontend/`
-1. Run `npm install`. It will install all the required packages and dependencies.
-1. Run `npm start` to run the server.
-1. Navigate to http://localhost:3000 to view it in the browser.
+- Navigate to `frontend` folder using `cd frontend/`
+- Run `npm install`. It will install all the required packages and dependencies.'
+- Configuring Firebase for chat function
+- Go to your firebase console:
+- Console > Authenthication > Sign-in method > Enable log in with Google
+- Console > Project Overview > Project Settings > Scroll below and `Add App` > Copy the code for firebase.initializeApp > Paste it into chat.js 
+- `firebase.initializeApp` stucture:
+    ```javascript
+    firebase.initializeApp({
+      apiKey:
+      authDomain:
+      projectId:
+      storageBucket:
+      messagingSenderId: 
+      appId: 
+      measurementId:
+      }); 
+     ```
+- Run `npm start` to run the server.
+- Navigate to http://localhost:3000 to view it in the browser.
+

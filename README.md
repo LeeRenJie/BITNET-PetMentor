@@ -85,7 +85,7 @@ Steps for setting up Python and Django:
 1. Install HomeBrew
 Use this code in terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 1. Install Python3
-`brew install python3`
+`brew install python3` <br/>
 **To check version of Python installed enter 'python3 --version' command in terminal**
 1. Install virtualEnv
 `sudo pip3 install virtualenv`
@@ -95,10 +95,10 @@ Use this code in terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercon
 `cd BitNetPy`
 `virtualenv BitNetVenv -p python3`
 1. Activate Virtualenv
-`source venv/bin/activate`
+`source venv/bin/activate` <br/>
 **To exit from venv use 'deactivate' command**
 1. Install Django
-`pip install Django==2.x.x` 
+`pip install Django==2.x.x` <br/>
 **where 2.x.x is your desired version of Django, simply leave ==2.x.x for installing latest one**
 1. Create Django project
 `django-admin.py startproject BitNetDj`

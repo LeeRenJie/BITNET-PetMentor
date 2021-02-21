@@ -10,13 +10,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-    // apiKey:
-    // authDomain:
-    // projectId:
-    // storageBucket:
-    // messagingSenderId: 
-    // appId: 
-    // measurementId:
+//   apiKey:
+//   authDomain:
+//   projectId: 
+//   storageBucket:
+//   messagingSenderId: 
+//   appId: 
+//   measurementId: 
 });
 
 const auth = firebase.auth();
@@ -29,15 +29,15 @@ function Chat() {
     
     return (
       <div ClassName="chat-main">
-      <div ClassName="chat">
+      <div ClassName="chat-header">
       <header>
         <h1>Your Chats</h1>
         <SignOut />
-      </header>
-        <section>
-            {user ? <ChatRoom /> : <SignIn className="SignIn"/>}
-        </section>
-    </div>
+      </header> 
+          </div>       
+      <section>
+        {user ? <ChatRoom /> : <SignIn className="SignIn"/>}
+      </section>
     </div>
     );
 }
@@ -104,7 +104,7 @@ function ChatRoom() {
 
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
 
-      <button type="submit chat-button" disabled={!formValue}>🕊️</button>
+      <button type="submit chat-button" disabled={!formValue}>Send</button>
 
     </form>
   </>)

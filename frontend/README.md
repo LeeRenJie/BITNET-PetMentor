@@ -1,4 +1,4 @@
-<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/image2.png" height="300" width="500"> | <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/image.png" height="300" width="500">
+<img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/image2.png" height="250" width="450"> | <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/image.png" height="250" width="450">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

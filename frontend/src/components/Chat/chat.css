@@ -1,5 +1,6 @@
-main {
-    background-color: #282c34;
+h1 {
+    display:inline;
+    padding: 0 2rem;
 }
 
 .chat {
@@ -8,10 +9,8 @@ main {
 }
 
 .chat header {
-    background-color: #181717;
     height: 10vh;
     min-height: 50px;
-    color: white;
     position: fixed;
     width: 100%;
     max-width: 728px;
@@ -33,9 +32,11 @@ main {
 }
 
 main {
+    background-color: #282c34;
+    max-width: 728px;
+    margin: 10px auto 0;
     padding: 10px;
     height: 80vh;
-    margin: 10vh 0 10vh;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
@@ -59,9 +60,10 @@ main::-webkit-scrollbar-thumb {
     bottom: 0;
     background-color: rgb(24, 23, 23);
     width: 100%;
-    max-width: 728px;
+    max-width: 100%;
     display: flex;
     font-size: 1.5rem;
+    margin: 0 auto
 }
 
 .chat-form button {
@@ -78,16 +80,18 @@ input {
     outline: none;
     border: none;
     padding: 0 10px;
+    margin: 0 auto;
 }
 
 .chat-button {
     background-color: #282c34; /* Green */
     border: none;
+    border-radius: 25px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     font-size: 1.25rem;
 }
@@ -150,4 +154,8 @@ header {
     height: 40px;
     border-radius: 50%;
     margin: 2px 5px;
+}
+
+.chat-header{
+    background-color: #fd774f;
 }

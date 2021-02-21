@@ -81,7 +81,7 @@ Following are the steps to run the frontend of the BITNET-PetMentor. All the fro
 
 # Backend
 Steps for setting up Python and Django:
-1. `cd backend'
+1. `cd backend`
 1. Install HomeBrew
 Use this code in terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 1. Install Python3

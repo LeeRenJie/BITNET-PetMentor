@@ -11,7 +11,7 @@
 - CockroachDB
 - EdgeImpulse
 
-# This is a project for <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/KU_hackfest.png" width="20%" />
+# Project For <img src="https://github.com/LeeRenJie/BITNET-PetMentor/blob/master/backend/bitnet_assets/KU_hackfest.png" width="20%" />
 # The problem PetMentor solves
 PetMentor offers an all-inclusive platform that emphasizes transparency, traceability, and crowdsourced verification to produce unbiased health-related recommendations for pet parents/owners. The aim in building this platform is to create a system that can seamlessly integrate into the average pet parent’s life, and simplify informed decision-making. The platform is enhanced by IoT connected devices, an advanced AI, and a digital currency, which serves as the basis for a micro-economy rich with trusted pet products and services. Train you pet using our reinforcement learning devices which makes sure your pet learns things faster and better. The platform is enhanced by IoT connected devices, an advanced AI, and a digital currency, which serves as the basis for a micro-economy rich with trusted pet products and services. Other features would be as follows:
 
@@ -44,7 +44,7 @@ PetMentor offers an all-inclusive platform that emphasizes transparency, traceab
 - Open Innovation
     - When the world is busy fighting covid we want to stop another zoonotic diseases by ensuring our pets are safe and help them learn new tricks anytime, anywhere even during lockdowns. Making pet owners feel proud of their pet data sharing and earning bitcoin tokens too in the transaction.
 - Best Hardware Hack
-    -Running tinyML algorithms in tiny devices are fun especially with your pets to train and monitor their activities. Working with Arduino and EdgeImpulse seems like a perfect combination of mind and body. 
+    - Running tinyML algorithms in tiny devices are fun especially with your pets to train and monitor their activities. Working with Arduino and EdgeImpulse seems like a perfect combination of mind and body. 
 - Best Beginner Hackers 
     - Three out of four members in our team are first-timer in hackathons which is more than 50%.
 
@@ -78,3 +78,4 @@ Following are the steps to run the frontend of the BITNET-PetMentor. All the fro
 - Run `npm start` to run the server.
 - Navigate to http://localhost:3000 to view it in the browser.
 
+# Backend

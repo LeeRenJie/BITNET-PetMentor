@@ -17,8 +17,8 @@ PetMentor offers an all-inclusive platform that emphasizes transparency, traceab
 
 - Machine learning on edge to detect for animal behavior and motion activities
 - Use TinyML voice and sound classification to understand animal health and mood
-- GPS and GPRS to make geofence feature to pet tracking
-- tinyML vision camera to detect if pets like cats or dogs are eating mud, wood chips, plastic and use vibration modules to assign habit building factors
+- GPS and GPRS to make geofence feature for pet tracking
+- tinyML vision camera to detect if pets like cats or dogs are eating mud, wood chips, plastic and use buzz tone, vibration modules to assign habit building factors
 - Dashboard to connect nearby dogs and owners, compare their dog statistics with other breeds or same breed. Track pet through GPS feature in collar. Live dog activities tracking
 - All devices can share the data and with each transanction on the network the user gets paid for sharing the data in form of PetMentor bitcoin tokens.
 

@@ -37,8 +37,6 @@ PetMentor offers an all-inclusive platform that emphasizes transparency, traceab
     - When the world is busy fighting covid we want to stop another zoonotic diseases by ensuring our pets are safe and help them learn new tricks anytime, anywhere even during lockdowns. Making pet owners feel proud of their pet data sharing and earning bitcoin tokens too in the transaction.
 - Best Hardware Hack
     - Running tinyML algorithms in tiny devices are fun especially with your pets to train and monitor their activities. Working with Arduino and EdgeImpulse seems like a perfect combination of mind and body. 
-- Best Beginner Hackers 
-    - Three out of four members in our team are first-timer in hackathons which is more than 50%.
    
 # Tech Stack
 - React
